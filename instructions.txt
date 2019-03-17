@@ -1,0 +1,12 @@
+for bs4: pip3 install bs4
+for requests: pip install requests
+
+To remove proxy: 
+echo $http_proxy
+export http_proxy=''
+export https_proxy=''
+export ftp_proxy=''
+
+
+to open virtual environment: source venv/bin/activate 
+
